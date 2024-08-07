@@ -21,7 +21,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'laser_filter_node = your_package_name.laser_filter_node:main'
+            'laser_filter_node = laserscan_filter.laser_filter_node:main'
         ],
     },
 )
