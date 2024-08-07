@@ -1,0 +1,16 @@
+laser_filters:
+  ros__parameters:
+    filter_chain:
+      - name: "angle_bounds_filter"
+        type: "laser_filters/AngleBoundsFilter"
+        params:
+          lower_angle: 0.0
+          upper_angle: 0.174533  # 10 degrees in radians
+          invert: false
+      - name: "angle_bounds_filter"
+        type: "laser_filters/AngleBoundsFilter"
+        params:
+          lower_angle: 6.10865  # 350 degrees in radians
+          upper_angle: 6.28319  # 360 degrees in radians
+          invert: false
+
